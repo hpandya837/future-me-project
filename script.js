@@ -1,24 +1,53 @@
 
 //calling the 2021 function
 function n2021() {
-    
-    document.getElementById('longImage').src = 'longins.jpg';//change this
-    document.getElementById('rightImg').src = 'rightins.png';//change this
-    document.getElementById('leftImg').src = 'leftins.png';//change this
-    document.getElementById('textDate').innerHTML='Enterprise Architect'
-    document.getElementById('textAgain').innerHTML='The Capitol Inserruction'
-    document.getElementById('realText').innerHTML='The storming of the United States Capitol on January 6, 2021 was an unprecedented incident, often described as an insurrection, unfolded as supporters of then-President Donald Trump breached the Capitol building in an attempt to overturn the results of the 2020 presidential election. The riot resulted in chaos, violence, and the tragic loss of lives. The insurrection shocked the nation and prompted widespread condemnation from political leaders and citizens alike. The event led to the impeachment of President Trump for incitement of insurrection, making him the first U.S. president to be impeached twice. The January 6 insurrection also raised questions about the state of democracy and the challenges of political polarization in the United States. It remains a significant and controversial moment in recent American history.'
+    document.getElementById('longImage').src = 'longins.jpg';
+    document.getElementById('rightImg').src = 'rightins.png';
+    document.getElementById('leftImg').src = 'leftins.png';
+    document.getElementById('textDate').innerHTML = 'Enterprise Architect';
+    document.getElementById('textAgain').innerHTML = 'Roles Responsibilties and Delivrables';
+    document.getElementById('realText').innerHTML = `
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Responsible for evaluating technology strategy, organization, and infrastructure, advising on enterprise architecture spanning technology, information, security, and more. Implements large-scale IT solutions to drive business transformation and identifies associated risks. Develops technology strategies to mitigate risks and enhance integration, while creating target-state architecture and assisting in formulating solution strategies. Establishes Centers of Excellence and leads or consults on Architecture Review Board. Additionally, responsibilities include:</p>
+            </div>
+            <div class="col-lg-6">
+                <ul>
+                    <li>Modeling business capabilities</li>
+                    <li>Generating IT landscape reports</li>
+                    <li>Developing migration roadmaps</li>
+                    <li>Creating current vs. future state diagrams</li>
+                    <li>Producing application criticality reports</li>
+                    <li>Crafting lifecycle roadmaps for IT landscapes</li>
+                </ul>
+            </div>
+        </div>
+    `;
 }
+
+
 //calling the 1941 function
 function n1941() {
-   
-    document.getElementById('longImage').src = '14long.png';//change this
-    document.getElementById('rightImg').src = '14right.png';//change this
-    document.getElementById('leftImg').src = 'pointsleft.png';//change this
-    document.getElementById('textDate').innerHTML='Enterprise Architect'
-    document.getElementById('textAgain').innerHTML='14 Points Speech'
-    document.getElementById('realText').innerHTML="In the pursuit of a better tomorrow, these 14 points serve as guiding beacons, illuminating the path toward a more united and equitable society. Embracing the principle of unity, we acknowledge that our strength lies in collective effort and collaboration. Education stands as the cornerstone, empowering individuals and propelling us towards progress. Equality becomes the driving force, ensuring that every person, irrespective of their background, is afforded the same opportunities and respect. Environmental stewardship becomes an imperative, recognizing the interconnectedness of our actions with the well-being of the planet and future generations. Through fostering innovation, we unlock the door to a future brimming with technological advancements and economic prosperity. A commitment to healthcare access reinforces the belief that well-being is a fundamental right for all. Social justice becomes the bedrock, challenging us to dismantle inequities and build a fairer society. Global cooperation extends a hand to the international community, promoting peace and understanding. Economic sustainability underscores our responsibility to balance progress with environmental and social considerations. Community engagement reinforces the strength found in togetherness, creating resilient societies. Transparency in governance builds bridges of trust between leaders and citizens. Integrating ethical considerations into technological advancements ensures that progress aligns with our moral compass. Crisis preparedness becomes our shield, fortifying us against unforeseen challenges. Ultimately, the overarching theme is one of hope – a belief that, guided by these 14 points, we can forge a future that is not only promising but also just, sustainable, and harmonious for generations to come."
+    document.getElementById('longImage').src = '14long.png';
+    document.getElementById('rightImg').src = '14right.png';
+    document.getElementById('leftImg').src = 'pointsleft.png';
+    document.getElementById('textDate').innerHTML = 'Enterprise Architect';
+    document.getElementById('textAgain').innerHTML = '14 Points Speech';
+    document.getElementById('realText').innerHTML = `
+        <ul>
+            <li>Enterprise architects need extensive education and experience to manage IT systems effectively.</li>
+            <li>They often hold multiple active certifications to demonstrate specific skills.</li>
+            <li>Transitioning into this role typically requires 5 to 10 years of IT experience.</li>
+            <li>Common paths to becoming an enterprise architect include roles like software engineer or network security specialist.</li>
+            <li>These roles help develop skills in areas like cloud computing, system architecture, and data modeling.</li>
+            <li>Accumulated experience can guide the selection of a specialty EA framework.</li>
+            <li>Qualifications for enterprise architects include 7 years of analysis experience, expertise in a business aspect, and relevant degrees/certificates in computer science or IT.</li>
+        </ul>
+    `;
 }
+
+
+
 //calling the 1966 function
 function n1966() {
     
@@ -36,7 +65,7 @@ function n1993() {
     document.getElementById('rightImg').src = 'rightdizzy.png';//change this
     document.getElementById('leftImg').src = 'leftdizzy.png';//change this
     document.getElementById('textDate').innerHTML='Enterprise Architect'
-    document.getElementById('textAgain').innerHTML='Dizzy Gillespie'
+    document.getElementById('textAgain').innerHTML='Earning'
     document.getElementById('realText').innerHTML="The passing of Dizzy Gillespie marked the end of an era in the world of jazz. As an American jazz trumpeter, composer, and bandleader, Gillespie was a trailblazer and a pivotal figure in the development of the bebop movement. Born on October 21, 1917, in Cheraw, South Carolina, Gillespie's impact on the jazz scene was nothing short of revolutionary. His virtuosic trumpet playing, characterized by rapid, complex runs and a distinctive bent horn, became synonymous with the bebop genre. Collaborating with other jazz luminaries such as Charlie Parker and Thelonious Monk, Gillespie's contributions elevated jazz to new heights of sophistication and improvisational brilliance. His musical innovation and charismatic stage presence left an indelible mark, influencing generations of musicians. Dizzy Gillespie's death at the age of 75 in 1993 marked the end of an extraordinary career, but his legacy lives on in the enduring influence of his groundbreaking work and his significant role in shaping the landscape of modern jazz."
 }
 function n1878() {
