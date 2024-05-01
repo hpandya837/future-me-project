@@ -52,8 +52,8 @@ function n1941() {
 function n1966() {
     
     document.getElementById('longImage').src = '66birth.jpg';//change this
-    document.getElementById('rightImg').src = '66right-380.png';//change this
-    document.getElementById('leftImg').src = '66left-380.png';//change this
+    document.getElementById('rightImg').src = 'overview right.jpg';//change this
+    document.getElementById('leftImg').src = 'overviewleft.png';//change this
     document.getElementById('textDate').innerHTML='Enterprise Architect'
     document.getElementById('textAgain').innerHTML='Carrer Overview'
     document.getElementById('realText').innerHTML="An enterprise architect is a specialist who focuses on the analysis, design and implementation of an organization's IT structure. Their goal is to ensure an organization's digital architecture aligns with wide-reaching goals regarding employee productivity, customer satisfaction and profits. Enterprise architects often collaborate with company leadership to develop effective systems and perform routine maintenance to prevent unnecessary downtime.s"
@@ -66,14 +66,17 @@ function n1993() {
     document.getElementById('leftImg').src = 'leftdizzy.png';//change this
     document.getElementById('textDate').innerHTML='Enterprise Architect'
     document.getElementById('textAgain').innerHTML='Earning'
-    document.getElementById('realText').innerHTML="The passing of Dizzy Gillespie marked the end of an era in the world of jazz. As an American jazz trumpeter, composer, and bandleader, Gillespie was a trailblazer and a pivotal figure in the development of the bebop movement. Born on October 21, 1917, in Cheraw, South Carolina, Gillespie's impact on the jazz scene was nothing short of revolutionary. His virtuosic trumpet playing, characterized by rapid, complex runs and a distinctive bent horn, became synonymous with the bebop genre. Collaborating with other jazz luminaries such as Charlie Parker and Thelonious Monk, Gillespie's contributions elevated jazz to new heights of sophistication and improvisational brilliance. His musical innovation and charismatic stage presence left an indelible mark, influencing generations of musicians. Dizzy Gillespie's death at the age of 75 in 1993 marked the end of an extraordinary career, but his legacy lives on in the enduring influence of his groundbreaking work and his significant role in shaping the landscape of modern jazz."
+    document.getElementById('realText').innerHTML="The average salary for an enterprise architect can range from $96,000 to $175,000 per year, depending on the level and experience. The average EA's salary in the United States is currently $137,639."
 }
 function n1878() {
+    document.getElementById('longImage').src = 'smokingsandburg.jpg'; // change this
+    document.getElementById('rightImg').src = 'rightsandburg.png'; // change this
+    document.getElementById('leftImg').src = 'leftsandburg.png'; // change this
+    document.getElementById('textDate').innerHTML = 'Enterprise Architect';
+    document.getElementById('textAgain').innerHTML = 'Work Cited'; // change this
+
+    // Replace basicText with hyperlinked URLs
+    document.getElementById('realText').innerHTML = '<a href="https://www.indeed.com/career-advice/careers/what-does-an-enterprise-architect-do" target="_blank">What Does an Enterprise Architect Do?</a><br><a href="https://www.leanix.net/en/wiki/ea/enterprise-architect#:~:text=To%20become%20an%20EA%2C%20candidates,Excellent%20leadership%20skills." target="_blank">How to Become an Enterprise Architect</a>';
     
-    document.getElementById('longImage').src = 'smokingsandburg.jpg';//change this
-    document.getElementById('rightImg').src = 'rightsandburg.png';//change this
-    document.getElementById('leftImg').src = 'leftsandburg.png';//change this
-    document.getElementById('textDate').innerHTML='Enterprise Architect'
-    document.getElementById('textAgain').innerHTML='Carl Sandburg'//change this
-    document.getElementById('realText').innerHTML="On January 6, 1878, the world welcomed the birth of Carl Sandburg, an American poet, historian, and folklorist whose literary legacy left an indelible mark on the nation's cultural tapestry. Renowned for his eloquent prose and deep appreciation for American history, Sandburg's notable work, 'braham Lincoln: The War Years,' earned him the Pulitzer Prize for history in 1940. Born in Galesburg, Illinois, Sandburg's poetry often reflected the struggles and triumphs of everyday people, and his historical writings captured the essence of pivotal moments in American history. His exploration of Abraham Lincoln's life during the tumultuous Civil War era stands as a testament to Sandburg's commitment to preserving and understanding the nation's past. Beyond his literary achievements, Sandburg's influence extended into the realms of journalism, activism, and music. As a multifaceted figure, Carl Sandburg's contributions continue to be celebrated, reminding us of the power of words to illuminate the complexities of our shared history and inspire generations to come."
+    // Change the content of realText
 }
