@@ -2,8 +2,8 @@
 //calling the 2021 function
 function n2021() {
     document.getElementById('longImage').src = 'longins.jpg';
-    document.getElementById('rightImg').src = 'rightins.png';
-    document.getElementById('leftImg').src = 'leftins.png';
+    document.getElementById('rightImg').src = 'workright2.jpg';
+    document.getElementById('leftImg').src = 'workleft.webp';
     document.getElementById('textDate').innerHTML = 'Enterprise Architect';
     document.getElementById('textAgain').innerHTML = 'Roles Responsibilties and Delivrables';
     document.getElementById('realText').innerHTML = `
@@ -29,10 +29,10 @@ function n2021() {
 //calling the 1941 function
 function n1941() {
     document.getElementById('longImage').src = '14long.png';
-    document.getElementById('rightImg').src = '14right.png';
-    document.getElementById('leftImg').src = 'pointsleft.png';
+    document.getElementById('rightImg').src = 'educationleft.jpg';
+    document.getElementById('leftImg').src = 'educationright.png';
     document.getElementById('textDate').innerHTML = 'Enterprise Architect';
-    document.getElementById('textAgain').innerHTML = '14 Points Speech';
+    document.getElementById('textAgain').innerHTML = 'Education';
     document.getElementById('realText').innerHTML = `
         <ul>
             <li>Enterprise architects need extensive education and experience to manage IT systems effectively.</li>
@@ -62,8 +62,8 @@ function n1966() {
 function n1993() {
     
     document.getElementById('longImage').src = 'trumpet.jpg';//change this
-    document.getElementById('rightImg').src = 'rightdizzy.png';//change this
-    document.getElementById('leftImg').src = 'leftdizzy.png';//change this
+    document.getElementById('rightImg').src = 'salaryright.jpg';//change this
+    document.getElementById('leftImg').src = 'nathan-dumlao-lvWw_G8tKsk-unsplash.jpg';//change this
     document.getElementById('textDate').innerHTML='Enterprise Architect'
     document.getElementById('textAgain').innerHTML='Earning'
     document.getElementById('realText').innerHTML="The average salary for an enterprise architect can range from $96,000 to $175,000 per year, depending on the level and experience. The average EA's salary in the United States is currently $137,639."
